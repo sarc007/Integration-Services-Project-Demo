@@ -1,0 +1,157 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="1/18/2020 7:38:38 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-H3K5I2D"
+  DTS:CreatorName="DESKTOP-H3K5I2D\suhail"
+  DTS:DTSID="{7B4C04F8-4CD4-4AD3-A938-940113F8B489}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.68"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{F367FC90-1665-41E8-9F97-FDEFEC206E9A}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{F5C13EE3-E450-45ED-9298-9C2B896328AC}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[User::varCSVFolder]+&quot;\\&quot;+ @[User::varMCCFileName]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="varCSVFilePath">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\dev\Integration Services Project1\Integration Services Project1\csv_data\</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C78CA0E2-35C1-4CB6-986F-9319BF83500A}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="varCSVFolder">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\dev\Integration Services Project1\Integration Services Project1\csv_data</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3B9C7C7D-53DB-4FE3-929D-4E0544B10415}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="varMCCFileName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{ADD3D337-0D38-4A73-8C4D-1CB964210AB7}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[User::varMCCFolder]+&quot;\\&quot;+ @[User::varMCCFileName]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="varMCCFilePath">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\dev\Integration Services Project1\Integration Services Project1\MCC\</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{A1B90970-F0F1-42EC-B2C5-E52899C400FD}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="varMCCFolder">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\dev\Integration Services Project1\Integration Services Project1\MCC</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Foreach File Loop Through MCC"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach File Loop Through MCC"
+      DTS:DTSID="{9BFD28CC-BD15-407D-807E-02B45142C94E}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Foreach File Loop Through MCC">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachFileEnumerator"
+        DTS:DTSID="{99B0D4DC-E156-4E8B-84AF-165843850544}"
+        DTS:ObjectName="{99B0D4DC-E156-4E8B-84AF-165843850544}">
+        <DTS:PropertyExpression
+          DTS:Name="Directory">@[User::varMCCFolder]</DTS:PropertyExpression>
+        <DTS:ObjectData>
+          <ForEachFileEnumeratorProperties>
+            <FEFEProperty
+              Folder="C:\dev\Integration Services Project1\Integration Services Project1\MCC" />
+            <FEFEProperty
+              FileSpec="*.csv" />
+            <FEFEProperty
+              FileNameRetrievalType="1" />
+            <FEFEProperty
+              Recurse="0" />
+          </ForEachFileEnumeratorProperties>
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Foreach File Loop Through MCC\Move MCC Files To CSV Folder"
+          DTS:CreationName="Microsoft.FileSystemTask"
+          DTS:Description="Move MCC Files To CSV Folder"
+          DTS:DTSID="{8150BCF1-1282-49D5-A8E5-0A9286DF8905}"
+          DTS:ExecutableType="Microsoft.FileSystemTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Move MCC Files To CSV Folder"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <FileSystemData
+              TaskOperationType="MoveFile"
+              TaskSourcePath="User::varMCCFilePath"
+              TaskIsSourceVariable="True"
+              TaskDestinationPath="User::varCSVFolder"
+              TaskIsDestinationVariable="True" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{C879C6FC-AE24-44FC-A01B-669F9CD6F642}"
+          DTS:ObjectName="{C879C6FC-AE24-44FC-A01B-669F9CD6F642}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::varMCCFileName" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Foreach File Loop Through MCC\Move MCC Files To CSV Folder"
+          TopLeft="144,45" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="555,201"
+          Size="555,244"
+          Id="Package\Foreach File Loop Through MCC"
+          TopLeft="178,165" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

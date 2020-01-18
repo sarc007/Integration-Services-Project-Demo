@@ -1,0 +1,93 @@
+SensorName,Location,Direction
+A3_Al Maktoum_st_W_1g_L0,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L1,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L2,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L3,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L4,Al Maqta,Entry
+A3_Al Maktoum_st_E_64g_L0,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L1,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L2,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L3,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L4,Al Maqta,Exit
+A5_Airport_st_W_35g_L0,Mussafah,Entry
+A5_Airport_st_W_35g_L1,Mussafah,Entry
+A5_Airport_st_W_35g_L2,Mussafah,Entry
+A5_Airport_st_W_35g_L3,Mussafah,Entry
+A5_Airport_st_W_35g_L4,Mussafah,Entry
+A5_Airport_st_W_35g_L5,Mussafah,Entry
+A5_Airport_st_E_2g_L0,Mussafah,Exit
+A5_Airport_st_E_2g_L1,Mussafah,Exit
+A5_Airport_st_E_2g_L2,Mussafah,Exit
+A5_Airport_st_E_2g_L3,Mussafah,Exit
+A5_Airport_st_E_2g_L4,Mussafah,Exit
+A5_Airport_st_E_2g_L5,Mussafah,Exit
+E19_Khalifa_br_S_1g_L0,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L1,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L2,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L3,Sheik Khalifa,Entry
+E19_Khalifa_br_N_1g_L0,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L1,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L2,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L3,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L4,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L5,Sheik Khalifa,Exit
+BAJ1_Zayed_bg_Erd_20L_En0,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En1,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En2,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En3,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En4,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En5,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En6,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_21L_Ex0,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex1,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex2,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex3,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex4,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex5,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex6,Sheik Zayed,Exit
+A3_Al Maktoum_st_W_1g_L0,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L1,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L2,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L3,Al Maqta,Entry
+A3_Al Maktoum_st_W_1g_L4,Al Maqta,Entry
+A3_Al Maktoum_st_E_64g_L0,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L1,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L2,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L3,Al Maqta,Exit
+A3_Al Maktoum_st_E_64g_L4,Al Maqta,Exit
+A5_Airport_st_W_35g_L0,Mussafah,Entry
+A5_Airport_st_W_35g_L1,Mussafah,Entry
+A5_Airport_st_W_35g_L2,Mussafah,Entry
+A5_Airport_st_W_35g_L3,Mussafah,Entry
+A5_Airport_st_W_35g_L4,Mussafah,Entry
+A5_Airport_st_W_35g_L5,Mussafah,Entry
+A5_Airport_st_E_2g_L0,Mussafah,Exit
+A5_Airport_st_E_2g_L1,Mussafah,Exit
+A5_Airport_st_E_2g_L2,Mussafah,Exit
+A5_Airport_st_E_2g_L3,Mussafah,Exit
+A5_Airport_st_E_2g_L4,Mussafah,Exit
+A5_Airport_st_E_2g_L5,Mussafah,Exit
+E19_Khalifa_br_S_1g_L0,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L1,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L2,Sheik Khalifa,Entry
+E19_Khalifa_br_S_1g_L3,Sheik Khalifa,Entry
+E19_Khalifa_br_N_1g_L0,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L1,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L2,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L3,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L4,Sheik Khalifa,Exit
+E19_Khalifa_br_N_1g_L5,Sheik Khalifa,Exit
+BAJ1_Zayed_bg_Erd_20L_En0,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En1,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En2,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En3,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En4,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En5,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_20L_En6,Sheik Zayed,Entry
+BAJ1_Zayed_bg_Erd_21L_Ex0,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex1,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex2,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex3,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex4,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex5,Sheik Zayed,Exit
+BAJ1_Zayed_bg_Erd_21L_Ex6,Sheik Zayed,Exit

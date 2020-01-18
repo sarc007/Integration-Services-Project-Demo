@@ -1,0 +1,48 @@
+Bridge,Direction,SensorId,SensorName
+Al Maqta,Entering AbuDhabi,4744,A3_Al Maktoum_st_W_1g_L1
+Al Maqta,Entering AbuDhabi,4745,A3_Al Maktoum_st_W_1g_L2
+Al Maqta,Entering AbuDhabi,4746,A3_Al Maktoum_st_W_1g_L3
+Al Maqta,Entering AbuDhabi,4747,A3_Al Maktoum_st_W_1g_L4
+Al Maqta,Entering AbuDhabi,75081,A3_Al Maktoum_st_W_1g_L0
+Al Maqta,Entering AbuDhabi,75082,A3_Al Maktoum_st_W_1g_L5
+Al Maqta,Exit AbuDhabi,4748,A3_Al Maktoum_st_E_64g_L1
+Al Maqta,Exit AbuDhabi,4749,A3_Al Maktoum_st_E_64g_L2
+Al Maqta,Exit AbuDhabi,4750,A3_Al Maktoum_st_E_64g_L3
+Al Maqta,Exit AbuDhabi,4751,A3_Al Maktoum_st_E_64g_L4
+Al Maqta,Exit AbuDhabi,75079,A3_Al Maktoum_st_E_64g_L0
+Al Maqta,Exit AbuDhabi,75080,A3_Al Maktoum_st_E_64g_L5
+Mussafah,Entering AbuDhabi,4775,A5_Airport_st_W_35g_L1
+Mussafah,Entering AbuDhabi,4776,A5_Airport_st_W_35g_L2
+Mussafah,Entering AbuDhabi,4777,A5_Airport_st_W_35g_L3
+Mussafah,Entering AbuDhabi,4778,A5_Airport_st_W_35g_L4
+Mussafah,Entering AbuDhabi,4779,A5_Airport_st_W_35g_L5
+Mussafah,Entering AbuDhabi,75144,A5_Airport_st_W_35g_L0
+Mussafah,Exit AbuDhabi,75156,A5_Airport_st_E_2g_L0
+Mussafah,Exit AbuDhabi,75157,A5_Airport_st_E_2g_L5
+Mussafah,Exit AbuDhabi,75158,A5_Airport_st_E_2g_L4
+Mussafah,Exit AbuDhabi,75159,A5_Airport_st_E_2g_L3
+Mussafah,Exit AbuDhabi,75160,A5_Airport_st_E_2g_L2
+Mussafah,Exit AbuDhabi,75161,A5_Airport_st_E_2g_L1
+Sheik Khalifa,Entering AbuDhabi,47003,E19_Khalifa_br_S_1g_L1
+Sheik Khalifa,Entering AbuDhabi,52823,E19_Khalifa_br_S_1g_L2
+Sheik Khalifa,Entering AbuDhabi,52831,E19_Khalifa_br_S_1g_L3
+Sheik Khalifa,Entering AbuDhabi,75086,E19_Khalifa_br_S_1g_L0
+Sheik Khalifa,Exit AbuDhabi,47000,E19_Khalifa_br_N_1g_L2
+Sheik Khalifa,Exit AbuDhabi,47001,E19_Khalifa_br_N_1g_L3
+Sheik Khalifa,Exit AbuDhabi,47002,E19_Khalifa_br_N_1g_L4
+Sheik Khalifa,Exit AbuDhabi,47007,E19_Khalifa_br_N_1g_L1
+Sheik Khalifa,Exit AbuDhabi,52819,E19_Khalifa_br_N_1g_L5
+Sheik Zayed,Entering AbuDhabi,16450,BAJ1_Zayed_bg_Erd_20L_En1
+Sheik Zayed,Entering AbuDhabi,16451,BAJ1_Zayed_bg_Erd_20L_En2
+Sheik Zayed,Entering AbuDhabi,16452,BAJ1_Zayed_bg_Erd_20L_En3
+Sheik Zayed,Entering AbuDhabi,16453,BAJ1_Zayed_bg_Erd_20L_En4
+Sheik Zayed,Entering AbuDhabi,16454,BAJ1_Zayed_bg_Erd_20L_En5
+Sheik Zayed,Entering AbuDhabi,16455,BAJ1_Zayed_bg_Erd_20L_En6
+Sheik Zayed,Entering AbuDhabi,75084,BAJ1_Zayed_bg_Erd_20L_En0
+Sheik Zayed,Exit AbuDhabi,16456,BAJ1_Zayed_bg_Erd_21L_Ex1
+Sheik Zayed,Exit AbuDhabi,16457,BAJ1_Zayed_bg_Erd_21L_Ex2
+Sheik Zayed,Exit AbuDhabi,16458,BAJ1_Zayed_bg_Erd_21L_Ex3
+Sheik Zayed,Exit AbuDhabi,16459,BAJ1_Zayed_bg_Erd_21L_Ex4
+Sheik Zayed,Exit AbuDhabi,16460,BAJ1_Zayed_bg_Erd_21L_Ex5
+Sheik Zayed,Exit AbuDhabi,16461,BAJ1_Zayed_bg_Erd_21L_Ex6
+Sheik Zayed,Exit AbuDhabi,75083,BAJ1_Zayed_bg_Erd_21L_Ex7

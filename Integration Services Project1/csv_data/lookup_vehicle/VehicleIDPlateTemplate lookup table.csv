@@ -1,0 +1,121 @@
+PlateTemplateID,Name,PrefixName,Emirate
+1318,AD Commercial,NULL,AD
+1022,AD Commercial,1,AD
+1023,AD Commercial,2,AD
+1025,AD Learning,NULL,AD
+1028,AD Motorcycle,NULL,AD
+1027,AD Police,NULL,AD
+1319,AD Private,NULL,AD
+1200,AD Private (Old),NULL,AD
+1018,AD Private,1,AD
+1007,AD Private,10,AD
+1008,AD Private,11,AD
+1009,AD Private,12,AD
+1010,AD Private,13,AD
+1011,AD Private,14,AD
+1012,AD Private,15,AD
+1013,AD Private,16,AD
+1014,AD Private,17,AD
+1001,AD Private,4,AD
+1002,AD Private,5,AD
+1019,AD Private,50,AD
+1003,AD Private,6,AD
+1004,AD Private,7,AD
+1005,AD Private,8,AD
+1006,AD Private,9,AD
+1020,AD Public,1,AD
+1021,AD Public,2,AD
+1024,AD Taxi,NULL,AD
+1126,Ajman,NULL,AJ
+1120,Ajman,A,AJ
+1121,Ajman,B,AJ
+1122,Ajman,C,AJ
+1123,Ajman,D,AJ
+1124,Ajman,E,AJ
+1125,Ajman,H,AJ
+1316,Bahrain,NULL,OTH
+1312,CC,NULL,DXB
+1311,CD,NULL,AD
+1059,Dubai,NULL,DXB
+1030,Dubai,A,DXB
+1031,Dubai,B,DXB
+1032,Dubai,C,DXB
+1033,Dubai,D,DXB
+1034,Dubai,E,DXB
+1035,Dubai,F,DXB
+1036,Dubai,G,DXB
+1037,Dubai,H,DXB
+1038,Dubai,I,DXB
+1039,Dubai,J,DXB
+1040,Dubai,K,DXB
+1041,Dubai,L,DXB
+1042,Dubai,M,DXB
+1058,Dubai Motorcycle,NULL,DXB
+1043,Dubai,N,DXB
+1044,Dubai,O,DXB
+1045,Dubai,P,DXB
+1046,Dubai,Q,DXB
+1047,Dubai,R,DXB
+1048,Dubai,S,DXB
+1049,Dubai,T,DXB
+1056,Dubai Taxi,NULL,DXB
+1057,Dubai Transport,NULL,DXB
+1050,Dubai,U,DXB
+1051,Dubai,V,DXB
+1052,Dubai,W,DXB
+1053,Dubai,X,DXB
+1054,Dubai,Y,DXB
+1055,Dubai,Z,DXB
+1075,Fujeirah,NULL,FUJ
+1060,Fujeirah,A,FUJ
+1061,Fujeirah,B,FUJ
+1062,Fujeirah,C,FUJ
+1063,Fujeirah,D,FUJ
+1064,Fujeirah,E,FUJ
+1065,Fujeirah,F,FUJ
+1066,Fujeirah,G,FUJ
+1072,Fujeirah,I,FUJ
+1067,Fujeirah,K,FUJ
+1068,Fujeirah,M,FUJ
+1069,Fujeirah,P,FUJ
+1073,Fujeirah,R,FUJ
+1071,Fujeirah,S,FUJ
+1070,Fujeirah,T,FUJ
+1074,Fujeirah,V,FUJ
+1313,IO,NULL,AD
+1315,Kuwait,NULL,OTH
+1314,Military,NULL,AD
+1131,Oman Red,NULL,OTH
+1130,Oman Yellow,NULL,OTH
+1310,Police,NULL,AD
+1150,Qatar,NULL,OTH
+1100,Ras Al Khaimah (Fort),NULL,RAK
+1090,Ras Al Khaimah (RAK),A,RAK
+1210,Ras Al Khaimah (RAK),B,RAK
+1091,Ras Al Khaimah (RAK),C,RAK
+1092,Ras Al Khaimah (RAK),D,RAK
+1093,Ras Al Khaimah (RAK),I,RAK
+1094,Ras Al Khaimah (RAK),K,RAK
+1095,Ras Al Khaimah (RAK),M,RAK
+1096,Ras Al Khaimah (RAK),N,RAK
+1097,Ras Al Khaimah (RAK),S,RAK
+1098,Ras Al Khaimah (RAK),V,RAK
+1099,Ras Al Khaimah (RAK),Y,RAK
+1211,Ras al-Khaimah,NULL,RAK
+1170,Saudi Arabia,NULL,OTH
+1117,Sharjah,NULL,SHJ
+1110,Sharjah,1,SHJ
+1111,Sharjah,2,SHJ
+1116,Sharjah,3,SHJ
+1079,Umm Al Quwain,NULL,UAQ
+1080,Umm Al Quwain,A,UAQ
+1081,Umm Al Quwain,B,UAQ
+1084,Umm Al Quwain,C,UAQ
+1085,Umm Al Quwain,D,UAQ
+1086,Umm Al Quwain,E,UAQ
+1082,Umm Al Quwain,G,UAQ
+1087,Umm Al Quwain,H,UAQ
+1088,Umm Al Quwain,I,UAQ
+1089,Umm Al Quwain,S,UAQ
+1083,Umm Al Quwain,X,UAQ
+-1,Unknown,NULL,Unknown
