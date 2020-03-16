@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.TestDB.sa"
+  DTS:DTSID="{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SRVD075CSD01\RUCITPS;User ID=user.webstg;Initial Catalog=DoT_DB_Com;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}LocalHost.TestDB.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFamn+VX9m0uu/ir2KG+8wgAAAAACAAAAAAAQZgAAAAEAACAAAADzYdlV1jYNa23FNU3mGZKT4HWXOl6VeUoOwx3ozq3tgwAAAAAOgAAAAAIAACAAAABIzz+XfeZRP2jpeN30IzYeg/WgPTou0oBMs3aSKQEd4IAAAAC1GnFAtKF6z1A28CfCvcGO9XXFJcViOxjXNv6h9UKFWJw2ODTNBPT9pb0rbG5bXy27ad9orolUmjB2phQEANmvsLLjzChvOVPS2n2QjR8JeAaR51tyvLSOQGMDHJPYAqw9l9aHvQB8mP4L3HqorVWPQPkg6BCGR8elZ2Wc61WkPUAAAAAK7CKVS1/sXNh/6z3NkpEScpSgHBpaIIHCQGsMBJeq/abQjL0qxWLUXmUNCKYiFkN17cZ9j4dUhYs+jo4VcPW3</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
