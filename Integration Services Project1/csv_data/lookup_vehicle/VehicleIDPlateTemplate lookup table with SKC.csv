@@ -1,0 +1,121 @@
+PlateTemplateID,Name,PrefixName,Emirate,Source,Kind,Color
+1318,AD Commercial,,AD,1,,
+1022,AD Commercial,1,AD,1,,
+1023,AD Commercial,2,AD,1,,
+1025,AD Learning,,AD,1,2,6
+1028,AD Motorcycle,,AD,1,20,49
+1027,AD Police,,AD,8,4,31
+1319,AD Private,,AD,1,,
+1200,AD Private (Old),,AD,1,,
+1018,AD Private,1,AD,1,1,46
+1007,AD Private,10,AD,1,1,55
+1008,AD Private,11,AD,1,1,56
+1009,AD Private,12,AD,1,1,57
+1010,AD Private,13,AD,1,1,58
+1011,AD Private,14,AD,1,1,59
+1012,AD Private,15,AD,1,1,66
+1013,AD Private,16,AD,1,1,67
+1014,AD Private,17,AD,1,1,68
+1001,AD Private,4,AD,1,1,49
+1002,AD Private,5,AD,1,1,50
+1019,AD Private,50,AD,1,1,166
+1003,AD Private,6,AD,1,1,51
+1004,AD Private,7,AD,1,1,52
+1005,AD Private,8,AD,1,1,53
+1006,AD Private,9,AD,1,1,54
+1020,AD Public,1,AD,1,2,47
+1021,AD Public,2,AD,1,2,47
+1024,AD Taxi,,AD,1,2,7
+1126,Ajman,,AJ,4,,
+1120,Ajman,A,AJ,4,1,15
+1121,Ajman,B,AJ,4,1,16
+1122,Ajman,C,AJ,4,1,17
+1123,Ajman,D,AJ,4,1,18
+1124,Ajman,E,AJ,4,1,19
+1125,Ajman,H,AJ,4,1,21
+1316,Bahrain,,OTH,10,1,3
+1312,CC,,DXB,2,11,35
+1311,CD,,AD,1,10,10
+1059,Dubai,,DXB,2,1,3
+1030,Dubai,A,DXB,2,1,15
+1031,Dubai,B,DXB,2,1,16
+1032,Dubai,C,DXB,2,1,17
+1033,Dubai,D,DXB,2,1,18
+1034,Dubai,E,DXB,2,1,19
+1035,Dubai,F,DXB,2,1,20
+1036,Dubai,G,DXB,2,1,22
+1037,Dubai,H,DXB,2,1,21
+1038,Dubai,I,DXB,2,1,23
+1039,Dubai,J,DXB,2,1,24
+1040,Dubai,K,DXB,2,1,25
+1041,Dubai,L,DXB,2,1,28
+1042,Dubai,M,DXB,2,1,29
+1058,Dubai Motorcycle,,DXB,2,20,3
+1043,Dubai,N,DXB,2,1,80
+1044,Dubai,O,DXB,2,1,81
+1045,Dubai,P,DXB,2,1,82
+1046,Dubai,Q,DXB,2,1,83
+1047,Dubai,R,DXB,2,1,84
+1048,Dubai,S,DXB,2,1,146
+1049,Dubai,T,DXB,2,1,85
+1056,Dubai Taxi,,DXB,2,16,203
+1057,Dubai Transport,,DXB,2,15,204
+1050,Dubai,U,DXB,2,1,86
+1051,Dubai,V,DXB,2,1,26
+1052,Dubai,W,DXB,2,1,88
+1053,Dubai,X,DXB,2,1,89
+1054,Dubai,Y,DXB,2,1,27
+1055,Dubai,Z,DXB,2,1,91
+1075,Fujeirah,,FUJ,7,1,3
+1060,Fujeirah,A,FUJ,7,1,15
+1061,Fujeirah,B,FUJ,7,1,16
+1062,Fujeirah,C,FUJ,7,1,17
+1063,Fujeirah,D,FUJ,7,1,18
+1064,Fujeirah,E,FUJ,7,1,19
+1065,Fujeirah,F,FUJ,7,1,20
+1066,Fujeirah,G,FUJ,7,1,22
+1072,Fujeirah,I,FUJ,7,1,23
+1067,Fujeirah,K,FUJ,7,1,25
+1068,Fujeirah,M,FUJ,7,1,29
+1069,Fujeirah,P,FUJ,7,1,82
+1073,Fujeirah,R,FUJ,7,1,84
+1071,Fujeirah,S,FUJ,7,1,146
+1070,Fujeirah,T,FUJ,7,1,85
+1074,Fujeirah,V,FUJ,7,,26
+1313,IO,,AD,1,12,11
+1315,Kuwait,,OTH,12,,
+1314,Military,,AD,19,5,1
+1131,Oman Red,,OTH,15,,
+1130,Oman Yellow,,OTH,15,,
+1310,Police,,AD,20,4,2
+1150,Qatar,,OTH,11,,
+1100,Ras Al Khaimah (Fort),,RAK,6,1,30
+1090,Ras Al Khaimah (RAK),A,RAK,6,1,15
+1210,Ras Al Khaimah (RAK),B,RAK,6,1,16
+1091,Ras Al Khaimah (RAK),C,RAK,6,1,17
+1092,Ras Al Khaimah (RAK),D,RAK,6,1,18
+1093,Ras Al Khaimah (RAK),I,RAK,6,1,23
+1094,Ras Al Khaimah (RAK),K,RAK,6,1,25
+1095,Ras Al Khaimah (RAK),M,RAK,6,1,29
+1096,Ras Al Khaimah (RAK),N,RAK,6,1,80
+1097,Ras Al Khaimah (RAK),S,RAK,6,1,146
+1098,Ras Al Khaimah (RAK),V,RAK,6,1,26
+1099,Ras Al Khaimah (RAK),Y,RAK,6,1,27
+1211,Ras al-Khaimah,,RAK,6,,
+1170,Saudi Arabia,,OTH,9,,
+1117,Sharjah,,SHJ,3,1,3
+1110,Sharjah,1,SHJ,3,1,46
+1111,Sharjah,2,SHJ,3,1,47
+1116,Sharjah,3,SHJ,3,1,48
+1079,Umm Al Quwain,,UAQ,5,1,3
+1080,Umm Al Quwain,A,UAQ,5,1,15
+1081,Umm Al Quwain,B,UAQ,5,1,16
+1084,Umm Al Quwain,C,UAQ,5,1,17
+1085,Umm Al Quwain,D,UAQ,5,1,18
+1086,Umm Al Quwain,E,UAQ,5,1,19
+1082,Umm Al Quwain,G,UAQ,5,1,22
+1087,Umm Al Quwain,H,UAQ,5,1,21
+1088,Umm Al Quwain,I,UAQ,5,1,23
+1089,Umm Al Quwain,S,UAQ,5,1,146
+1083,Umm Al Quwain,X,UAQ,5,1,89
+-1,Unknown,,Unknown,,,
