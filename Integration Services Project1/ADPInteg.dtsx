@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="ADPIntegration"
   DTS:PackageType="5"
-  DTS:VersionBuild="86"
-  DTS:VersionGUID="{42236166-DD06-4679-84A5-6CCDE36AEA85}">
+  DTS:VersionBuild="90"
+  DTS:VersionGUID="{6125E515-25F2-4CB7-B428-7CBE92F421C8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="Y:\adp_output\ADP_20200319_001005.csv">
+          DTS:ConnectionString="Y:\adp_output\ADP_20200319_010315.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\ws_usr_3\source\repos\Integration-Services-Project-Demo\Integration Services Project1\csv_data\in_proc\">
+          DTS:ConnectionString="d:\trans_posting\csv_data\in_proc\">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +139,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 0"
-              DTS:DTSID="{88B39EDB-BCF8-4866-9826-650C712B5CC9}"
+              DTS:DTSID="{18D4B889-F92A-44F3-8EB4-F75CD112DB0B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +148,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 1"
-              DTS:DTSID="{D03FCE95-27E2-4C53-B38E-4DFA1AB9219F}"
+              DTS:DTSID="{477FD229-7F45-4723-AA4B-4388DC90D8A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +157,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 2"
-              DTS:DTSID="{0AD3F1C5-9D53-41FC-B54F-19E255CC7B09}"
+              DTS:DTSID="{78BA025A-9E21-4F6D-B7A0-74688BCA3D99}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +166,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 3"
-              DTS:DTSID="{EBAD0512-F3C1-46A8-B1FD-42643E7A5285}"
+              DTS:DTSID="{C0B9EC7E-DDCA-43E6-9E17-BCD351D4E05C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +175,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{EE1C5264-A97E-4C52-BDFF-A3B0CD02C306}"
+              DTS:DTSID="{C81B61ED-EC12-422A-A22C-A5901251E667}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -184,7 +184,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{B899E849-BB68-476E-A825-B787103D08D7}"
+              DTS:DTSID="{BADEBFDA-A726-4B3A-A822-3D0E282AD8AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -193,7 +193,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{695231CB-88C3-4EB6-874E-DFAB6D65A5BA}"
+              DTS:DTSID="{EEB42489-8324-40BA-8EC5-5D0FEEB9111A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -202,7 +202,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{0616B7F3-0675-4506-8C9F-8A3EDFC3F74F}"
+              DTS:DTSID="{0D0447E9-2FCE-4160-8972-C41F391F34C8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -211,7 +211,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{339F30E3-5CF7-43FA-A14A-C2D853F47020}"
+              DTS:DTSID="{EEBF1584-51EB-48F5-A2F0-12E4229DC919}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -220,7 +220,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{B97898C0-AAED-4D5E-BD6E-E2051E345886}"
+              DTS:DTSID="{7D7BC4F7-8CB9-42C1-BB85-5C3D3D8B55BF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,7 +229,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{4F50B316-579F-484A-8607-A0EB346DEFB7}"
+              DTS:DTSID="{741B9AED-EBA1-4230-B849-A86ADD2A9536}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +238,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{01999578-0808-472B-9E4D-262C07CECA3F}"
+              DTS:DTSID="{C93476AA-B4FC-479A-BEC0-F019BDDCF019}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -247,7 +247,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{18C43F3C-8173-4098-A5FA-734FC95F2D07}"
+              DTS:DTSID="{A7842FF0-E6D8-48D7-8302-F046968FB8D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -256,7 +256,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{F8EB59E9-DCB1-4E07-B769-D52932D19847}"
+              DTS:DTSID="{927BDF7F-BB11-4BDC-8635-4802B44F8653}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -267,10 +267,12 @@
       DTS:CreationName="FILE"
       DTS:DTSID="{49A567F3-3269-42CE-80A2-CE856D0225B1}"
       DTS:ObjectName="in_proc">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::varINPROCFolder]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="2"
-          DTS:ConnectionString="C:\dev\Integration Services Project1\Integration Services Project1\csv_data\in_proc" />
+          DTS:ConnectionString="d:\trans_posting\csv_data\in_proc" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -444,7 +446,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varCSVOutFileName">
       <DTS:VariableValue
-        DTS:DataType="8">ADP_20200319_001005.csv</DTS:VariableValue>
+        DTS:DataType="8">ADP_20200319_010315.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -460,11 +462,13 @@
     <DTS:Variable
       DTS:CreationName=""
       DTS:DTSID="{43683DFA-202E-412D-82BE-6A6DE52B15CE}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;d:\\trans_posting\\csv_data\\in_proc&quot;"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="varINPROCFolder">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\ws_usr_3\source\repos\Integration-Services-Project-Demo\Integration Services Project1\csv_data\in_proc</DTS:VariableValue>
+        DTS:DataType="8">d:\trans_posting\csv_data\in_proc</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -475,7 +479,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varINPROCPath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\ws_usr_3\source\repos\Integration-Services-Project-Demo\Integration Services Project1\csv_data\in_proc\</DTS:VariableValue>
+        DTS:DataType="8">d:\trans_posting\csv_data\in_proc\</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -504,7 +508,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varOUTPUTPath">
       <DTS:VariableValue
-        DTS:DataType="8">Y:\adp_output\ADP_20200319_001005.csv</DTS:VariableValue>
+        DTS:DataType="8">Y:\adp_output\ADP_20200319_010315.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -524,7 +528,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTicketNumber">
       <DTS:VariableValue
-        DTS:DataType="8">20200319001005</DTS:VariableValue>
+        DTS:DataType="8">20200319010315</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -569,600 +573,6 @@
         </DTS:Variable>
       </DTS:Variables>
       <DTS:Executables>
-        <DTS:Executable
-          DTS:refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware"
-          DTS:CreationName="Microsoft.Pipeline"
-          DTS:DelayValidation="True"
-          DTS:Description="Data Flow Task"
-          DTS:DTSID="{2ABA2224-5AAA-4758-82C1-A62C5D3C2AA9}"
-          DTS:ExecutableType="Microsoft.Pipeline"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="CSV File Transfer To ADP From Middleware"
-          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <pipeline
-              version="1">
-              <components>
-                <component
-                  refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="Derived Column"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Inputs[Derived Column Input]"
-                      description="Input to the Derived Column Transformation"
-                      name="Derived Column Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Inputs[Derived Column Input].Columns[VehicleIDPlateNumber]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="VehicleIDPlateNumber"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[VehicleIDPlateNumber]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output]"
-                      description="Default Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      name="Derived Column Output"
-                      synchronousInputId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[TicketNumber]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          length="65"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[TicketNumber]"
-                          name="TicketNumber"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">@[User::varTicketNumber] + "-" + #{Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[VehicleIDPlateNumber]}</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">@[User::varTicketNumber] + "-" + VehicleIDPlateNumber</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Debt]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Debt]"
-                          name="Debt"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">16</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">16</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Registered]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Registered]"
-                          name="Registered"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">0</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">0</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Error Output]"
-                      description="Error Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Derived Column Error Output"
-                      synchronousInputId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination"
-                  componentClassID="Microsoft.FlatFileDestination"
-                  contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-                  description="Flat File Destination"
-                  localeId="1033"
-                  name="Flat File Destination">
-                  <properties>
-                    <property
-                      dataType="System.Boolean"
-                      description="Specifies whether the data will overwrite or append to the destination file."
-                      name="Overwrite">true</property>
-                    <property
-                      dataType="System.Null"
-                      description="Specifies the text to write to the destination file before any data is written."
-                      expressionType="Notify"
-                      name="Header" />
-                    <property
-                      dataType="System.Boolean"
-                      description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                      name="EscapeQualifier">false</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[ADP_output_connect]"
-                      connectionManagerRefId="Package.ConnectionManagers[ADP_output_connect]"
-                      name="FlatFileConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input]"
-                      hasSideEffects="true"
-                      name="Flat File Destination Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[TicketNumber]"
-                          cachedDataType="wstr"
-                          cachedLength="65"
-                          cachedName="TicketNumber"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[TicketNumber]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[Source]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Source"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Source]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[Kind]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Kind"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Kind]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[Color]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Color"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Color]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[VehicleIDPlateNumber]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="VehicleIDPlateNumber"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[VehicleIDPlateNumber]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[Debt]"
-                          cachedDataType="i4"
-                          cachedName="Debt"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Debt]" />
-                        <inputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].Columns[Registered]"
-                          cachedDataType="i4"
-                          cachedName="Registered"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output].Columns[Registered]" />
-                      </inputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 0" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 1" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 2" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 3" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 4" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 5" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 6" />
-                      </externalMetadataColumns>
-                    </input>
-                  </inputs>
-                </component>
-                <component
-                  refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source"
-                  componentClassID="Microsoft.OLEDBSource"
-                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-                  description="OLE DB Source"
-                  name="OLE DB Source"
-                  usesDispositions="true"
-                  version="7">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                      name="CommandTimeout">0</property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies the name of the database object used to open a rowset."
-                      name="OpenRowset"></property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies the variable that contains the name of the database object used to open a rowset."
-                      name="OpenRowsetVariable"></property>
-                    <property
-                      dataType="System.String"
-                      description="The SQL command to be executed."
-                      name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT        LprDetectionId, LprDetectionTime, SensorName, SensorDirection, Confidence, VehicleIDPlateNumber, VehicleIDPlateNumberConfidence, VehicleIDPlateTemplate, PrefixName, Emirate, 
-                         VehicleIDPlateTemplateConfidence, VehicleIDPlateTemplateCode, VehicleIDPlateTemplateExt, Speed, SpeedConfidence, Bridge, SensorId, CSVFileName, UPLDSTATUS, Name_fld, Source, Kind, Color
-FROM            dbo.ADP_dest_tbl
-WHERE        (UPLDSTATUS = 'I')</property>
-                    <property
-                      dataType="System.String"
-                      description="The variable that contains the SQL command to be executed."
-                      name="SqlCommandVariable"></property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the column code page to use when code page information is unavailable from the data source."
-                      name="DefaultCodePage">1252</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Forces the use of the DefaultCodePage property value when describing character data."
-                      name="AlwaysUseDefaultCodePage">false</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the mode used to access the database."
-                      name="AccessMode"
-                      typeConverter="AccessMode">2</property>
-                    <property
-                      dataType="System.String"
-                      description="The mappings between the parameters in the SQL command and variables."
-                      name="ParameterMapping"></property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Connections[OleDbConnection]"
-                      connectionManagerID="{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[LocalHost.TestDB.sa]"
-                      description="The OLE DB runtime connection used to access the database."
-                      name="OleDbConnection" />
-                  </connections>
-                  <outputs>
-                    <output
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output]"
-                      name="OLE DB Source Output">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[VehicleIDPlateNumber]"
-                          codePage="1252"
-                          dataType="str"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateNumber]"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[VehicleIDPlateNumber]"
-                          name="VehicleIDPlateNumber"
-                          truncationRowDisposition="FailComponent" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Source]"
-                          codePage="1252"
-                          dataType="str"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Source]"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Source]"
-                          name="Source"
-                          truncationRowDisposition="FailComponent" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Kind]"
-                          codePage="1252"
-                          dataType="str"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Kind]"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Kind]"
-                          name="Kind"
-                          truncationRowDisposition="FailComponent" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Color]"
-                          codePage="1252"
-                          dataType="str"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Color]"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].Columns[Color]"
-                          name="Color"
-                          truncationRowDisposition="FailComponent" />
-                      </outputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LprDetectionId]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="LprDetectionId" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LprDetectionTime]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="LprDetectionTime" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SensorName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="SensorName" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SensorDirection]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="SensorDirection" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Confidence]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Confidence" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateNumber]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateNumber" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateNumberConfidence]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateNumberConfidence" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateTemplate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateTemplate" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PrefixName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="PrefixName" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Emirate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Emirate" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateTemplateConfidence]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateTemplateConfidence" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateTemplateCode]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateTemplateCode" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[VehicleIDPlateTemplateExt]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="VehicleIDPlateTemplateExt" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Speed]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Speed" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SpeedConfidence]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="SpeedConfidence" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Bridge]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Bridge" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[SensorId]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="SensorId" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSVFileName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="CSVFileName" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[UPLDSTATUS]"
-                          codePage="1252"
-                          dataType="str"
-                          length="1"
-                          name="UPLDSTATUS" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Name_fld]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Name_fld" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Source]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Source" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Kind]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Kind" />
-                        <externalMetadataColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Color]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Color" />
-                      </externalMetadataColumns>
-                    </output>
-                    <output
-                      refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output]"
-                      isErrorOut="true"
-                      name="OLE DB Source Error Output">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[VehicleIDPlateNumber]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[VehicleIDPlateNumber]"
-                          name="VehicleIDPlateNumber" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Source]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Source]"
-                          name="Source" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Kind]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Kind]"
-                          name="Kind" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Color]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Color]"
-                          name="Color" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-              </components>
-              <paths>
-                <path
-                  refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware.Paths[Derived Column Output]"
-                  endId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination.Inputs[Flat File Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware.Paths[OLE DB Source Output]"
-                  endId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column.Inputs[Derived Column Input]"
-                  name="OLE DB Source Output"
-                  startId="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source.Outputs[OLE DB Source Output]" />
-              </paths>
-            </pipeline>
-          </DTS:ObjectData>
-        </DTS:Executable>
         <DTS:Executable
           DTS:refId="Package\COPY The File To In Process\Delete The Extracted CSV File"
           DTS:CreationName="Microsoft.FileSystemTask"
@@ -1480,13 +890,13 @@ END"</DTS:PropertyExpression>
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[DATEADD]("mi",-5,#{Package\COPY The File To In Process\Get File Attrib\Derived Column 1.Outputs[Derived Column Output].Columns[FileCreationDate]})</property>
+                              name="Expression">[DATEADD]("ss",-299,#{Package\COPY The File To In Process\Get File Attrib\Derived Column 1.Outputs[Derived Column Output].Columns[FileCreationDate]})</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">DATEADD("mi",-5,FileCreationDate)</property>
+                              name="FriendlyExpression">DATEADD("ss",-299,FileCreationDate)</property>
                           </properties>
                         </outputColumn>
                       </outputColumns>
@@ -2387,7 +1797,7 @@ namespace SC_92ad4623e86c491e97fa0bbb95a08427.Properties {
     <msb:CodeName>SC_92ad4623e86c491e97fa0bbb95a08427</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_92ad4623e86c491e97fa0bbb95a08427</msb:DisplayName>
-    <msb:ProjectId>{495A2E9B-2CA6-4AD3-A4EE-C0C047600A3D}</msb:ProjectId>
+    <msb:ProjectId>{7CFCA86F-77CA-4B7F-93D4-44DB3CB7373C}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_92ad4623e86c491e97fa0bbb95a08427.csproj" />
@@ -2534,7 +1944,7 @@ namespace SC_92ad4623e86c491e97fa0bbb95a08427.Properties {
                         <arrayElement
                           dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAP8zM14AAAAAAAAAAOAAIiALATAAABgAAAAIAAAAAAAAWjYA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAKmHcl4AAAAAAAAAAOAAIiALATAAABgAAAAIAAAAAAAAWjYA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAAg2AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2628,7 +2038,7 @@ AGwAcwBlAC4AIABBAHMAcwBpAGcAbgAgAGEAIAB2AGEAbAB1AGUAIAB0AG8AIAB0AGgAZQAgAGMA
 bwBsAHUAbQBuACAAaQBuAHMAdABlAGEAZAAuAAARTwB1AHQAcAB1AHQAIAAwAAAVdgBhAHIAQwBT
 AFYAUABhAHQAaAAAcVMAQwBfADkAMgBhAGQANAA2ADIAMwBlADgANgBjADQAOQAxAGUAOQA3AGYA
 YQAwAGIAYgBiADkANQBhADAAOAA0ADIANwAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBv
-AHUAcgBjAGUAcwAAEVM2FV+C/kes2drHYMnhCwAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERYQQH
+AHUAcgBjAGUAcwAAOI5r8ZKVhkaXHOfOIKn9ZwAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERYQQH
 ARI5AyAADgQgABFJAyAACgkgAwESQR0IEkUFIAIBCBwDIAACAwcBCAYAAggSRQ4FIAEdCAgEIAAS
 fQYgARKAgRwFAAASgIUGIAEcEoCJCAABEoCREYCVBSAAEoCZByACAQ4SgJkIt3pcVhk04IkIiYRd
 zYCAzJEDBhIUAwYSGAMGEgwDBhJNAwYSWQMGEl0DBhIgBSABARFJBCABAQIEIAEBCgsgBAEIHQgd
@@ -2811,39 +2221,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}"
               SQLTask:SqlStatementSource="INSERT INTO [dbo].[FileLoadStatus_tbl]&#xA;           ([filename]&#xA;           )&#xA;     VALUES&#xA;           ('')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-          </DTS:ObjectData>
-        </DTS:Executable>
-        <DTS:Executable
-          DTS:refId="Package\COPY The File To In Process\Setting Status Completed For Records Exported"
-          DTS:CreationName="Microsoft.ExecuteSQLTask"
-          DTS:Description="Setting Status Completed For Records Exported"
-          DTS:DTSID="{E777CA18-9CC3-412B-8766-B07C7EC6E5CC}"
-          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="Setting Status Completed For Records Exported"
-          DTS:ThreadHint="0">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <SQLTask:SqlTaskData
-              SQLTask:Connection="{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}"
-              SQLTask:SqlStatementSource="UPDATE       dbo.ADP_dest_tbl&#xA;SET                UPLDSTATUS = 'C'&#xA;WHERE        ( UPLDSTATUS = 'I')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-          </DTS:ObjectData>
-        </DTS:Executable>
-        <DTS:Executable
-          DTS:refId="Package\COPY The File To In Process\Setting Status In Process For Records Ready To  Export"
-          DTS:CreationName="Microsoft.ExecuteSQLTask"
-          DTS:Description="Setting Status In Process For Records Ready To  Export"
-          DTS:DTSID="{5F0FC3A9-B5DB-493A-8CCA-F707BFDD8642}"
-          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="Setting Status In Process For Records Ready To  Export"
-          DTS:ThreadHint="0">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <SQLTask:SqlTaskData
-              SQLTask:Connection="{0BB7B7ED-61DF-45AA-BC6E-BAB0ED55B72A}"
-              SQLTask:BypassPrepare="False"
-              SQLTask:SqlStatementSource="&#xA;UPDATE       dbo.ADP_dest_tbl&#xA;SET                UPLDSTATUS = 'I'&#xA;WHERE        ( UPLDSTATUS = 'N')&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -8798,35 +8175,11 @@ where [refTable].[PlateTemplateID] = ?</property>
         <DTS:PrecedenceConstraint
           DTS:refId="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 3]"
           DTS:CreationName=""
-          DTS:DTSID="{B5DAEC0A-879D-4391-8BA4-D445748A53E4}"
-          DTS:From="Package\COPY The File To In Process\Setting Status Completed For Records Exported"
+          DTS:DTSID="{DBB899FC-B903-45A0-9222-E3393BEC9ECA}"
+          DTS:From="Package\COPY The File To In Process\Delete The Extracted CSV File"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 3"
           DTS:To="Package\COPY The File To In Process\Insert The Copied Files Record In DB" />
-        <DTS:PrecedenceConstraint
-          DTS:refId="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 4]"
-          DTS:CreationName=""
-          DTS:DTSID="{21C263F6-488C-4C71-AC31-80DB63DB5B25}"
-          DTS:From="Package\COPY The File To In Process\Delete The Extracted CSV File"
-          DTS:LogicalAnd="True"
-          DTS:ObjectName="Constraint 4"
-          DTS:To="Package\COPY The File To In Process\Setting Status In Process For Records Ready To  Export" />
-        <DTS:PrecedenceConstraint
-          DTS:refId="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 5]"
-          DTS:CreationName=""
-          DTS:DTSID="{A54277E0-3BD8-48D7-80E5-17395087B8A4}"
-          DTS:From="Package\COPY The File To In Process\Setting Status In Process For Records Ready To  Export"
-          DTS:LogicalAnd="True"
-          DTS:ObjectName="Constraint 5"
-          DTS:To="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware" />
-        <DTS:PrecedenceConstraint
-          DTS:refId="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 6]"
-          DTS:CreationName=""
-          DTS:DTSID="{B26EACCF-762D-4665-AA78-007BD6BC2155}"
-          DTS:From="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware"
-          DTS:LogicalAnd="True"
-          DTS:ObjectName="Constraint 6"
-          DTS:To="Package\COPY The File To In Process\Setting Status Completed For Records Exported" />
         <DTS:PrecedenceConstraint
           DTS:refId="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 7]"
           DTS:CreationName=""
@@ -8839,8 +8192,8 @@ where [refTable].[PlateTemplateID] = ?</property>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{223EF828-852B-4AAF-91C9-D76B0FCE0E42}"
-          DTS:ObjectName="{223EF828-852B-4AAF-91C9-D76B0FCE0E42}"
+          DTS:DTSID="{0AF54D9D-2F61-4D70-9283-B0D03FB2DE82}"
+          DTS:ObjectName="{0AF54D9D-2F61-4D70-9283-B0D03FB2DE82}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::varCSVInFileName" />
       </DTS:ForEachVariableMappings>
@@ -9751,10 +9104,6 @@ FROM            dbo.SensorLookup_tbl</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="295,42"
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware"
-          TopLeft="8,304" />
-        <NodeLayout
           Size="228,42"
           Id="Package\COPY The File To In Process\Delete The Extracted CSV File"
           TopLeft="563,109" />
@@ -9769,19 +9118,11 @@ FROM            dbo.SensorLookup_tbl</property>
         <NodeLayout
           Size="146,42"
           Id="Package\COPY The File To In Process\Get File Attrib"
-          TopLeft="5.5,147" />
+          TopLeft="163.5,286" />
         <NodeLayout
           Size="261,42"
           Id="Package\COPY The File To In Process\Insert The Copied Files Record In DB"
           TopLeft="270,162" />
-        <NodeLayout
-          Size="314,42"
-          Id="Package\COPY The File To In Process\Setting Status Completed For Records Exported"
-          TopLeft="10,222" />
-        <NodeLayout
-          Size="354,42"
-          Id="Package\COPY The File To In Process\Setting Status In Process For Records Ready To  Export"
-          TopLeft="433,296" />
         <NodeLayout
           Size="200,42"
           Id="Package\COPY The File To In Process\Upload CSV Files To DB"
@@ -9879,161 +9220,65 @@ FROM            dbo.SensorLookup_tbl</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 3]"
-          TopLeft="167,222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="103,-33.3333333333333"
-              Start="0,0"
-              End="95.5,-33.3333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-29.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-29.3333333333333"
-                    Point2="0,-33.3333333333333"
-                    Point3="4,-33.3333333333333" />
-                  <mssgle:LineSegment
-                    End="95.5,-33.3333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 4]"
-          TopLeft="677,151">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-67,145"
-              Start="0,0"
-              End="-67,137.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,68.5"
-                    Point2="0,72.5"
-                    Point3="-4,72.5" />
-                  <mssgle:LineSegment
-                    End="-63,72.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-63,72.5"
-                    Point2="-67,72.5"
-                    Point3="-67,76.5" />
-                  <mssgle:LineSegment
-                    End="-67,137.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 5]"
-          TopLeft="433,317">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-130,8"
-              Start="0,0"
-              End="-122.5,8">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-61,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-61,0"
-                    Point2="-65,0"
-                    Point3="-65,4" />
-                  <mssgle:LineSegment
-                    End="-65,4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-65,4"
-                    Point2="-65,8"
-                    Point3="-69,8" />
-                  <mssgle:LineSegment
-                    End="-122.5,8" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 6]"
-          TopLeft="155.5,304">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="11.5,-40"
-              Start="0,0"
-              End="11.5,-32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-16"
-                    Point2="0,-20"
-                    Point3="4,-20" />
-                  <mssgle:LineSegment
-                    End="7.5,-20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7.5,-20"
-                    Point2="11.5,-20"
-                    Point3="11.5,-24" />
-                  <mssgle:LineSegment
-                    End="11.5,-32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 7]"
-          TopLeft="270,177.333333333333">
+          TopLeft="400.5,204">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-118.5,-9.33333333333334"
+              EndConnector="-164,82"
               Start="0,0"
-              End="-111,-9.33333333333334">
+              End="-164,74.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-46.0091743119266,0" />
+                    End="0,37" />
                   <mssgle:CubicBezierSegment
-                    Point1="-46.0091743119266,0"
-                    Point2="-50.0091743119266,0"
-                    Point3="-50.0091743119266,-4" />
+                    Point1="0,37"
+                    Point2="0,41"
+                    Point3="-4,41" />
                   <mssgle:LineSegment
-                    End="-50.0091743119266,-5.33333333333334" />
+                    End="-160,41" />
                   <mssgle:CubicBezierSegment
-                    Point1="-50.0091743119266,-5.33333333333334"
-                    Point2="-50.0091743119266,-9.33333333333334"
-                    Point3="-54.0091743119266,-9.33333333333334" />
+                    Point1="-160,41"
+                    Point2="-164,41"
+                    Point3="-164,45" />
                   <mssgle:LineSegment
-                    End="-111,-9.33333333333334" />
+                    End="-164,74.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\COPY The File To In Process.PrecedenceConstraints[Constraint 3]"
+          TopLeft="563,135.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-32,47.3333333333333"
+              Start="0,0"
+              End="-24.5,47.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-9.50458715596331,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9.50458715596331,0"
+                    Point2="-13.5045871559633,0"
+                    Point3="-13.5045871559633,4" />
+                  <mssgle:LineSegment
+                    End="-13.5045871559633,43.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-13.5045871559633,43.3333333333333"
+                    Point2="-13.5045871559633,47.3333333333333"
+                    Point3="-17.5045871559633,47.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-24.5,47.3333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10071,135 +9316,39 @@ FROM            dbo.SensorLookup_tbl</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-67.7142857142858,245.428571428571"
+              EndConnector="-67.714285714286,245.428571428571"
               Start="0,0"
-              End="-60.2142857142858,245.428571428571">
+              End="-60.214285714286,245.428571428571">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-29.8571428571429,0" />
+                    End="-29.857142857143,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-29.8571428571429,0"
-                    Point2="-33.8571428571429,0"
-                    Point3="-33.8571428571429,4" />
+                    Point1="-29.857142857143,0"
+                    Point2="-33.857142857143,0"
+                    Point3="-33.857142857143,4" />
                   <mssgle:LineSegment
-                    End="-33.8571428571429,241.428571428571" />
+                    End="-33.857142857143,241.428571428571" />
                   <mssgle:CubicBezierSegment
-                    Point1="-33.8571428571429,241.428571428571"
-                    Point2="-33.8571428571429,245.428571428571"
-                    Point3="-37.8571428571429,245.428571428571" />
+                    Point1="-33.857142857143,241.428571428571"
+                    Point2="-33.857142857143,245.428571428571"
+                    Point3="-37.857142857143,245.428571428571" />
                   <mssgle:LineSegment
-                    End="-60.2142857142858,245.428571428571" />
+                    End="-60.214285714286,245.428571428571" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-59.1615959821429,-17.609375,50.60890625,11.609375"
+              BoundingBox="-59.161595982143,-17.609375,50.60890625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
-  <TaskHost
-    design-time-name="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="176,42"
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Flat File Destination"
-          TopLeft="446,288" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source"
-          TopLeft="421,101" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\Derived Column"
-          TopLeft="214,204" />
-        <EdgeLayout
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware.Paths[OLE DB Source Output]"
-          TopLeft="499.5,143">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-206.5,61"
-              Start="0,0"
-              End="-206.5,53.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.5"
-                    Point2="0,30.5"
-                    Point3="-4,30.5" />
-                  <mssgle:LineSegment
-                    End="-202.5,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-202.5,30.5"
-                    Point2="-206.5,30.5"
-                    Point3="-206.5,34.5" />
-                  <mssgle:LineSegment
-                    End="-206.5,53.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware.Paths[Derived Column Output]"
-          TopLeft="293,246">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="241,42"
-              Start="0,0"
-              End="241,34.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17"
-                    Point2="0,21"
-                    Point3="4,21" />
-                  <mssgle:LineSegment
-                    End="237,21" />
-                  <mssgle:CubicBezierSegment
-                    Point1="237,21"
-                    Point2="241,21"
-                    Point3="241,25" />
-                  <mssgle:LineSegment
-                    End="241,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\COPY The File To In Process\CSV File Transfer To ADP From Middleware\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\COPY The File To In Process\Get File Attrib">
     <LayoutInfo>
@@ -10383,29 +9532,21 @@ FROM            dbo.SensorLookup_tbl</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="223,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Merge Sensor &amp; Vehicle Data"
-          TopLeft="250,482" />
+          Size="196,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Sort Vehicle For Joining"
+          TopLeft="421,383" />
         <NodeLayout
-          Size="115,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Lookup"
-          TopLeft="630,505" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\OLE DB Destination"
-          TopLeft="125,577" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Derived Column"
-          TopLeft="452,146" />
-        <NodeLayout
-          Size="123,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Multicast"
-          TopLeft="232,151" />
+          Size="178,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Add UAE Date Time"
+          TopLeft="392,561" />
         <NodeLayout
           Size="156,42"
           Id="Package\COPY The File To In Process\Upload CSV Files To DB\Flat File Source"
           TopLeft="237,18" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Sensor Lookup"
+          TopLeft="99,242" />
         <NodeLayout
           Size="194,42"
           Id="Package\COPY The File To In Process\Upload CSV Files To DB\Sort Sensor For Joining"
@@ -10415,17 +9556,29 @@ FROM            dbo.SensorLookup_tbl</property>
           Id="Package\COPY The File To In Process\Upload CSV Files To DB\Vehicle Lookup"
           TopLeft="353,250" />
         <NodeLayout
-          Size="178,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Add UAE Date Time"
-          TopLeft="392,561" />
+          Size="177,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\OLE DB Destination"
+          TopLeft="125,577" />
         <NodeLayout
-          Size="153,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Sensor Lookup"
-          TopLeft="99,242" />
+          Size="158,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Derived Column"
+          TopLeft="452,146" />
         <NodeLayout
-          Size="196,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Sort Vehicle For Joining"
-          TopLeft="421,383" />
+          Size="115,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Lookup"
+          TopLeft="630,505" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Multicast"
+          TopLeft="232,151" />
+        <NodeLayout
+          Size="223,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Merge Sensor &amp; Vehicle Data"
+          TopLeft="250,482" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Script Component"
+          TopLeft="628,607" />
         <EdgeLayout
           Id="Package\COPY The File To In Process\Upload CSV Files To DB.Paths[Sort Output1]"
           TopLeft="519,425">
@@ -10633,6 +9786,42 @@ FROM            dbo.SensorLookup_tbl</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\COPY The File To In Process\Upload CSV Files To DB.Paths[Lookup Match Output2]"
+          TopLeft="687.5,547">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="24,60"
+              Start="0,0"
+              End="24,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="20,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="20,30"
+                    Point2="24,30"
+                    Point3="24,34" />
+                  <mssgle:LineSegment
+                    End="24,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-36.19138671875,35,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\COPY The File To In Process\Upload CSV Files To DB.Paths[Lookup Match Output1]"
           TopLeft="175.5,284">
           <EdgeLayout.Curve>
@@ -10801,46 +9990,6 @@ FROM            dbo.SensorLookup_tbl</property>
           Size="440,40"
           Id="caadb156-6585-4680-ac30-e59650f7716f"
           TopLeft="197,636" />
-        <NodeLayout
-          Size="167,42"
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB\Script Component"
-          TopLeft="628,607" />
-        <EdgeLayout
-          Id="Package\COPY The File To In Process\Upload CSV Files To DB.Paths[Lookup Match Output2]"
-          TopLeft="687.5,547">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="24,60"
-              Start="0,0"
-              End="24,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="20,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="20,30"
-                    Point2="24,30"
-                    Point3="24,34" />
-                  <mssgle:LineSegment
-                    End="24,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-36.19138671875,35,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
